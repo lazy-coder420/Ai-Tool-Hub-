@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional ATS-friendly resumes in minutes with AI-powered suggestions.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI writing assistant"
+    ],
+    "image": "https://i.ibb.co.com/yv9ZvyK/png-clipart-resume-cover-letter-curriculum-vitae-essay-re-sume-writing-cv-icon-template-text-thumbn.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Logo Maker",
+    "description": "Generate stunning brand logos instantly using artificial intelligence.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited logo generation",
+      "PNG & SVG export",
+      "Brand kit",
+      "Commercial license"
+    ],
+    "image": "https://i.ibb.co.com/v4JhMNPr/Aiiiiiiiii.avif"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Kit",
+    "description": "Design social posts, stories, and ads with pre-made templates.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ templates",
+      "Instagram stories",
+      "Facebook ads",
+      "One-click resize"
+    ],
+    "image": "https://i.ibb.co.com/V0Xt1HTD/Kiiiiiit-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Code Assistant",
+    "description": "Boost development speed with smart code suggestions and debugging.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Code autocomplete",
+      "Bug detection",
+      "Multiple languages",
+      "VS Code integration"
+    ],
+    "image": "https://i.ibb.co.com/qZkY6N0/Aiii-code.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Presentation Maker",
+    "description": "Build modern business presentations with AI-generated slides.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "50+ slide templates",
+      "AI slide suggestions",
+      "PPT export",
+      "Custom branding"
+    ],
+    "image": "https://i.ibb.co.com/5W5C9467/Aiiii-presentation.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Video Editor",
+    "description": "Edit videos automatically with AI transitions, subtitles, and effects.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Auto subtitles",
+      "AI transitions",
+      "1080p export",
+      "Social media format"
+    ],
+    "image": "https://i.ibb.co.com/s9GGg7hR/Aiiiii-video.webp"
+  }
+]
