@@ -74,5 +74,5 @@ Live link : https://ai-tool-hub-beige.vercel.app/
 Add your GitHub repository link here
 
 
-https://github.com/lazy-coder420/ai-tool-hub
+https://github.com/lazy-coder420/Ai-Tool-Hub-
 
