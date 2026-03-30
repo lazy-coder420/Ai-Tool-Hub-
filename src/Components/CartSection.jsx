@@ -1,8 +1,13 @@
 import React from "react";
+import { FaShoppingCart } from "react-icons/fa";
+
 
 const CartSection = ({ cart, handleRemove, handleCheckout }) => {
   if (cart.length === 0) {
-    return <h2 className="text-center text-xl">Cart is empty</h2>;
+    return <h2 className="flex flex-col items-center justify-center bg-gray-100 shadow-md rounded-lg p-6 text-xl text-gray-700">
+  <FaShoppingCart size={25} className="mb-2 text-gray-500" />
+  Cart is empty
+</h2>
   }
 
   const total = cart.reduce((sum, item) => sum + item.price, 0);

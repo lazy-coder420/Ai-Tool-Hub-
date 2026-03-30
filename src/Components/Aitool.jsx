@@ -4,10 +4,16 @@ import CartSection from "./CartSection";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Aitool = () => {
+const Aitool = ({ cart, setCart }) => {
   const [tools, setTools] = useState([]);
-  const [cart, setCart] = useState([]);
   const [showCart, setShowCart] = useState(false);
+  const [checkoutTrigger, setCheckoutTrigger] = useState(0);
+
+  const handleCheckout = () => {
+    setCart([]); // Clear cart
+    setCheckoutTrigger((prev) => prev + 1); // Trigger ProductCard reset
+    toast.success("Checkout complete");
+  };
 
   useEffect(() => {
     fetch("/data.json")
@@ -26,10 +32,7 @@ const Aitool = () => {
     toast.error("Removed from cart");
   };
 
-  const handleCheckout = () => {
-    setCart([]);
-    toast.success("Checkout complete");
-  };
+ 
 
   return (
     <div className="max-w-7xl mx-auto py-16">
@@ -72,6 +75,7 @@ const Aitool = () => {
               key={tool.id}
               tool={tool}
               handleAddToCart={handleAddToCart}
+              checkoutTrigger={checkoutTrigger}
             />
           ))}
         </div>

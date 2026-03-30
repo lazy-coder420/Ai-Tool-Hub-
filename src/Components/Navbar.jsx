@@ -7,18 +7,7 @@ const Navbar = ({ cartCount }) => {
         <a className="text-4xl font-bold text-purple-600">DigiTools</a>
       </div>
 
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-base font-medium gap-4">
-          <li><a>Products</a></li>
-          <li><a>Features</a></li>
-          <li><a>Pricing</a></li>
-          <li><a>Testimonials</a></li>
-          <li><a>FAQ</a></li>
-        </ul>
-      </div>
-
       <div className="navbar-end gap-5 flex items-center">
-        {/* Cart Button with Icon and Count */}
         <button className="btn btn-ghost btn-circle relative">
           <FaShoppingCart size={20} />
           {cartCount > 0 && (
